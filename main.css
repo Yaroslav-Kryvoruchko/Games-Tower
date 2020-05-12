@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #041F1E;
+}
+
+.main-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #2E0F15;
+    color: #95B2B8;
+} 
+
+#sect-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 2rem;
+}
+
+.sect-1-tower__lvl {
+    border: 1px solid #70163C;
+    border-radius: 1rem;
+    background: rgba(149, 178, 184, 0.5);
+    color: black;
+    padding: 0.5rem;
+}
+
+.sect-1__money {
+    border: 1px solid #70163C;
+    border-radius: 2rem;
+    background: rgba(149, 178, 184, 0.5);
+    color: black;
+    padding: 0.5rem;
+
+}
+
+#sect-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10rem;
+}
+
+.Building {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 200px;
+    background: rgba(149, 178, 184, 0.5);
+    border: 1px solid #70163C;
+}
+
+.Walls {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    background: rgba(149, 178, 184, 0.5);
+    border: 1px solid #70163C;
+}
+
+.Protection {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    background: rgba(149, 178, 184, 0.5);
+    border: 1px solid #70163C;
+}
